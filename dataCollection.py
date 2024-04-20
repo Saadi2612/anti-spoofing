@@ -4,7 +4,7 @@ import cv2
 from time import time
 
 classID = 1  # 0 is fake and 1 is real
-output_folder_path = "Dataset/DataCollect"
+output_folder_path = "Dataset/Real"
 confidence = 0.8
 save = True
 blurThreshold = 35  # Large value means less blur
